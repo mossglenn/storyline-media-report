@@ -8,25 +8,25 @@
 > Plus it only works in very specific circumstances, so use at your own risk. ☠️
 ***
 
-# 🧾 Storyline Media Report
+# Storyline Media Report
 
-Generate a simple HTML or PDF report showing all media assets from an Articulate Storyline `.story` project — including thumbnails, alt text, and internal notes.
+Generate a simple HTML or PDF report showing all media assets from an Articulate Storyline `.story` project PLUS thumbnails, alt text, and internal notes (from the Media Library).
 
-## 📦 What It Does
+## What It Does
 
 - Extracts media assets from a `.story` file (which is just a ZIP archive).
 - Matches media files by checksum with entries in `story/story.xml`.
 - Collects:
-  - 🖼 Thumbnail of each image (resized)
-  - 📝 Internal notes (from the `note` attribute)
-  - 🔤 Alt text (from `<altText>` tag)
+  - Thumbnail of each image (resized)
+  - Internal notes (from the `note` attribute)
+  - Alt text (from `<altText>` tag)
 - Outputs:
   - A compact, shareable **HTML** file
   - Or a printable **PDF report** (with poor layout so far 🤬)
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - Python 3.8+
 - Pillow (`pip install Pillow`)
@@ -34,15 +34,18 @@ Generate a simple HTML or PDF report showing all media assets from an Articulate
 
 ---
 
-## 🚀 How to Use
+## How to Use
+For HTML output:
+```bash
+python storyline_media_to_html.py "your_project.story"
+```
 
-### Option 1: From the Command Line
-
+For PDF output:
 ```bash
 python storyline_media_to_pdf.py "your_project.story"
 ```
 
-## 📂 Output
+## Output
 
 - storyline_media_report.html — Viewable in any browser.
 - storyline_media_report.pdf — Portable format for documentation or reviews.
@@ -59,7 +62,7 @@ HTML output:
 
 
 
-## 📁 Example Repo Structure
+## Example Repo Structure
 
 ```
 storyline-media-report/
@@ -70,7 +73,7 @@ storyline-media-report/
 └── sample.story (not included)
 ```
 
-## 📋 License
+## License
 
 MIT License. Use freely, modify, share — and credit if you feel generous.
 
