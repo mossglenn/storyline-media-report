@@ -1,10 +1,12 @@
-> ⚠️ **Disclaimer:**  
-> This tool is not affiliated with or endorsed by Articulate or its products.  
-> It simply processes user-generated `.story` files using standard XML and media parsing.  
-> No reverse-engineering of Articulate software was performed.
+> [!IMPORTANT]  
+> This tool is not affiliated with or endorsed by Articulate.  
+> It processes .story files using standard XML/media parsing.  
+> No reverse-engineering of Storyline software is involved.  
 
-
-⚠️Just an experiment to learn something. Only works in very specific circumstances. Use at your own risk! ☠️
+> [!NOTE]  
+> This is for educational and internal use only.  
+> Plus it only works in very specific circumstances, so use at your own risk. ☠️
+***
 
 # 🧾 Storyline Media Report
 
