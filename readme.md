@@ -22,7 +22,7 @@ Generate a simple HTML or PDF report showing all media assets from an Articulate
   - 🔤 Alt text (from `<altText>` tag)
 - Outputs:
   - A compact, shareable **HTML** file
-  - Or a printable **PDF report**
+  - Or a printable **PDF report** (with poor layout so far 🤬)
 
 ---
 
@@ -52,6 +52,12 @@ Each entry shows:
 - A small image preview
 - Alt text
 - Internal note (entered using Storyline Media Library)
+
+HTML output:  
+<img width="400" alt="screenshot showing html output with image followed by alt text, followed by note text" class="recess" src="Screenshot_Storyline_Media_Report.png">
+
+
+
 
 ## 📁 Example Repo Structure
 
